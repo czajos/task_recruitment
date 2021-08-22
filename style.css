@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+}
+
+.container {
+
+    height: 100vh;
+    background: url(tło2.jpg);
+    background-size: cover;
+    background-color: rgb(240, 239, 239);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.textarea {
+    width: 38%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-bottom: -40px;
+    font-size: 13px;
+
+}
+
+#bigtext {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -5px;
+    color: midnightblue;
+}
+
+#description {
+    font-size: 17px;
+    line-height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(59, 109, 201);
+
+}
+
+.boxarea {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#box1,
+#box2,
+#box3,
+#box4 {
+    width: 315px;
+    height: 260px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.27);
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.27);
+    border-radius: 1%;
+}
+
+#box2 {
+    margin-top: 60px;
+}
+
+#box4 {
+    margin-top: 30px;
+}
+
+#box2 {
+    margin-top: 30px;
+}
+
+.btnAction {
+    width: 90px;
+    padding: 12px;
+    background-color: orange;
+    border: none;
+    border-radius: 6%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 23px;
+}
+
+.margins {
+    padding: 23px;
+}
+
+h2 {
+    font-size: 21px;
+    color: midnightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.description_2 {
+    font-size: 15px;
+    color: rgb(59, 109, 201);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+
+.icon_1,
+.icon_2,
+.icon_3,
+.icon_4 {
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_1 {
+    background-color: rgb(183, 218, 241);
+
+}
+
+.icon_2 {
+    background-color: rgb(170, 216, 170);
+}
+
+.icon_3 {
+    background-color: rgb(255, 236, 202);
+}
+
+.icon_4 {
+    background-color: rgb(241, 182, 241);
+}
